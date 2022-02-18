@@ -1,25 +1,39 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {BrowserRouter as Router , Switch, Route} from 'react-router-dom'
+import Header from './Components/Header';
+import Home from './Routes/Home';
+import Intro from './Routes/Intro';
+import Search from './Routes/Search';
+import Tv from './Routes/Tv';
+import SearchHeader from './Components/SearchHeader';
+import Mylist from './Routes/Mylist';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router basename={process.env.PUBLIC_URL}>
+      <Switch>
+      <Route path={["/mylist", "/mylist/:movieId", "/mylist/recommend/:movieId"]}>
+        <Header/>
+          <Mylist/>
+        </Route>
+        <Route path={["/tv", "/tv/onair/:tvId", "/tv/onair/popular/:tvId"]}>
+        <Header/>
+          <Tv/>
+        </Route>
+        <Route path={["/search", "/search/:movieId"]}>
+        <SearchHeader/>
+          <Search/>
+        </Route>
+        <Route path={["/home", "/home/movies/:movieId", "/home/movies/upcomming/:movieId"]}>
+        <Header/>
+          <Home/>
+        </Route>
+        <Route path="/">
+          <Intro/>
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 
