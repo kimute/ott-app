@@ -10,6 +10,8 @@ Description:
 - Add Mylist
 - Search
 
+[Published Home Page](https://kimute.github.io/ott-app/) ◀︎ Click!
+
 ### Stack:
 
 <img alt="React" src ="https://img.shields.io/badge/React-v17.0.2-61DAFB.svg?&style=for-the-badge&logo=React&logoColor=61DAFB"/>
