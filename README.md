@@ -1,9 +1,14 @@
 # Over The Top service project
 
-Movie & Tv show Trailer Streaming service
+
+
 
 Description:
 
+Movie & Tv show Trailer Streaming Service Web APP.
+
+
+Functions:
 - Intro page
 - Move
 - Tv Show
