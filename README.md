@@ -1,5 +1,6 @@
 # Over The Top service project
 
+<img width="700" height="370" alt="ott-main" src="https://user-images.githubusercontent.com/51284158/174287373-58b8e871-6ac8-4dcb-bede-cadaa18a457c.png">
 
 
 
