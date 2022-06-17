@@ -6,7 +6,7 @@
 
 <img width="700" height="370" alt="main-click" src="https://user-images.githubusercontent.com/51284158/174289212-8d887f94-c24c-4859-94e5-7ea87c1e0d54.png">
 <img width="700" height="370" alt="main-tvshow" src="https://user-images.githubusercontent.com/51284158/174289275-53ea3600-e6a5-461b-9258-0f66500ba183.png">
-<img width="700" height="370" alt="main-search" src="https://user-images.githubusercontent.com/51284158/174289349-fce439c5-fc3e-4c94-bd9c-a205016a74c3.png">
+<img width="700" height="250" alt="main-search" src="https://user-images.githubusercontent.com/51284158/174289349-fce439c5-fc3e-4c94-bd9c-a205016a74c3.png">
 
 
 Description:
